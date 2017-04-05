@@ -1,0 +1,31 @@
+{
+    "name": "jerryhsia/phpqrcode",
+    "description": "Composer for phpqrcode",
+    "homepage": "https://github.com/jerryhsia/phpqrcode",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jerry Hsia",
+            "email": "jerry@xiajie.me"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "jerryhsia\\phpqrcode\\": ""
+        }
+    },
+    "extra": {
+        "writable": [
+            "output"
+        ],
+        "executable": [
+            "run-test"
+        ]
+    }
+}
